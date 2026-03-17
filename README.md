@@ -22,20 +22,20 @@ This dataset is based on [Hseuh et al., 2025](https://doi.org/10.3389/fvets.2025
 This repository contains separate datasets for each of the 10 ARV segments:
 
 ### L Segments (Large)
-- **L1**: [Nextclade Web Link](https://master.clades.nextstrain.org/?dataset-url=gh:tobbyxy/Reovirus_Nextclade_Data@main@/datasets/L1_dataset)
-- **L2**: [Nextclade Web Link](https://master.clades.nextstrain.org/?dataset-url=gh:tobbyxy/Reovirus_Nextclade_Data@main@/datasets/L2_dataset)
-- **L3**: [Nextclade Web Link](https://master.clades.nextstrain.org/?dataset-url=gh:tobbyxy/Reovirus_Nextclade_Data@main@/datasets/L3_dataset)
+- **L1**: [Nextclade Web Link](https://master.clades.nextstrain.org/?dataset-url=gh:tobbyxy/Reovirus_Nextclade_Data@main@/nextclade_datasets/l1_dataset)
+- **L2**: [Nextclade Web Link](https://master.clades.nextstrain.org/?dataset-url=gh:tobbyxy/Reovirus_Nextclade_Data@main@/nextclade_datasets/l2_dataset)
+- **L3**: [Nextclade Web Link](https://master.clades.nextstrain.org/?dataset-url=gh:tobbyxy/Reovirus_Nextclade_Data@main@/nextclade_datasets/l3_dataset)
 
 ### M Segments (Medium)
-- **M1**: [Nextclade Web Link](https://master.clades.nextstrain.org/?dataset-url=gh:tobbyxy/Reovirus_Nextclade_Data@main@/datasets/M1_dataset)
-- **M2**: [Nextclade Web Link](https://master.clades.nextstrain.org/?dataset-url=gh:tobbyxy/Reovirus_Nextclade_Data@main@/datasets/M2_dataset)
-- **M3**: [Nextclade Web Link](https://master.clades.nextstrain.org/?dataset-url=gh:tobbyxy/Reovirus_Nextclade_Data@main@/datasets/M3_dataset)
+- **M1**: [Nextclade Web Link](https://master.clades.nextstrain.org/?dataset-url=gh:tobbyxy/Reovirus_Nextclade_Data@main@/nextclade_datasets/m1_dataset)
+- **M2**: [Nextclade Web Link](https://master.clades.nextstrain.org/?dataset-url=gh:tobbyxy/Reovirus_Nextclade_Data@main@/nextclade_datasets/m2_dataset)
+- **M3**: [Nextclade Web Link](https://master.clades.nextstrain.org/?dataset-url=gh:tobbyxy/Reovirus_Nextclade_Data@main@/nextclade_datasets/m3_dataset)
 
 ### S Segments (Small)
-- **S1**: [Nextclade Web Link](https://master.clades.nextstrain.org/?dataset-url=gh:tobbyxy/Reovirus_Nextclade_Data@main@/datasets/S1_dataset)
-- **S2**: [Nextclade Web Link](https://master.clades.nextstrain.org/?dataset-url=gh:tobbyxy/Reovirus_Nextclade_Data@main@/datasets/S2_dataset)
-- **S3**: [Nextclade Web Link](https://master.clades.nextstrain.org/?dataset-url=gh:tobbyxy/Reovirus_Nextclade_Data@main@/datasets/S3_dataset)
-- **S4**: [Nextclade Web Link](https://master.clades.nextstrain.org/?dataset-url=gh:tobbyxy/Reovirus_Nextclade_Data@main@/datasets/S4_dataset)
+- **S1**: [Nextclade Web Link](https://master.clades.nextstrain.org/?dataset-url=gh:tobbyxy/Reovirus_Nextclade_Data@main@/nextclade_datasets/s1_dataset)
+- **S2**: [Nextclade Web Link](https://master.clades.nextstrain.org/?dataset-url=gh:tobbyxy/Reovirus_Nextclade_Data@main@/nextclade_datasets/s2_dataset)
+- **S3**: [Nextclade Web Link](https://master.clades.nextstrain.org/?dataset-url=gh:tobbyxy/Reovirus_Nextclade_Data@main@/nextclade_datasets/s3_dataset)
+- **S4**: [Nextclade Web Link](https://master.clades.nextstrain.org/?dataset-url=gh:tobbyxy/Reovirus_Nextclade_Data@main@/nextclade_datasets/s4_dataset)
 
 ## Usage
 
@@ -55,7 +55,7 @@ Click on any of the links above to load the dataset directly in Nextclade Web. O
 # Run analysis for L1 segment
 nextclade run \
   your_sequences.fasta \
-  --input-dataset datasets/L1_dataset \
+  --input-dataset nextclade_datasets/l1_dataset \
   --output-all output/
 
 # Or use directly from GitHub
