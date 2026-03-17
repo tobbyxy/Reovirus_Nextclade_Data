@@ -1,0 +1,23 @@
+# ARV Segment l2 Dataset
+
+This is a Nextclade dataset for Avian Reovirus segment l2.
+
+## Files
+
+- **l2_sequence.fasta**: Reference sequence for segment l2
+- **l2_sequence.gff3**: Genome annotation (GFF3 format)
+- **tree.json**: Phylogenetic tree with evolutionary information
+- **pathogen.json**: Dataset configuration file
+- **sequences.fasta**: Example sequences (empty by default)
+
+## Usage
+
+Use this dataset with Nextclade CLI:
+
+```bash
+nextclade run -D . sequences.fasta
+```
+
+## Generated
+
+Generated on Tue Mar 17 10:41:51 AM CDT 2026
