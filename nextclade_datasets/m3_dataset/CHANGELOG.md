@@ -1,6 +1,6 @@
 ## Unreleased
 
-## [1.0.0] - 2026-03-17
+## [1.0.0] - 2026-03-24
 
 ### Added
 - Initial release of ARV segment m3 dataset
